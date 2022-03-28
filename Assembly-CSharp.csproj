@@ -58,6 +58,7 @@
      <Compile Include="Assets\Scripts\Ejercicio3.cs" />
      <Compile Include="Assets\Scripts\Ejercicio4.cs" />
      <Compile Include="Assets\Scripts\Ejercicio5.cs" />
+     <Compile Include="Assets\Scripts\Ejercicio6.cs" />
  <Reference Include="UnityEngine.Purchasing">
  <HintPath>C:/Users/47128101/Documents/Unity 4B/Guia de Programacion 1/Guia-de-Programacion-1/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
  </Reference>

@@ -13,7 +13,7 @@ public class Ejercicio4 : MonoBehaviour
     public int num1, num2;
     void Start()
     {
-        Debug.Log("La suma entre " + num1 + " y " + num2 + " es " + (num1 + num2));
+        Debug.Log("La suma entre " + num1 + " y " + num2 + " da como resultado " + (num1 + num2));
       
     }
 
