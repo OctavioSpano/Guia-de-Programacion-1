@@ -11,43 +11,39 @@ public class Ejercicio8 : MonoBehaviour
     public int dia;
     void Start()
     {
-        if (dia == 1)
+        switch (dia)
         {
-            Debug.Log ("El día es Domingo");
+            case 1:
+                Debug.Log("Domingo");
+                break;
+            case 2:
+                Debug.Log("Lunes");
+                break;
+            case 3:
+                Debug.Log("Martes");
+                break;
+            case 4:
+                Debug.Log("Miércoles");
+                break;
+            case 5:
+                Debug.Log("Jueves");
+                break;
+            case 6:
+                Debug.Log("Viernes");
+                break;
+            case 7:
+                Debug.Log("Sábado");
+                break;
+            default:
+                Debug.Log("El día ingresado no es válido");
+                break;
         }
-        if (dia == 2)
-        {
-            Debug.Log ("El día es Lunes");
-        }
-         if (dia == 3)
-        {
-            Debug.Log ("El día es Martes");
-        }
-         if (dia == 4)
-        {
-            Debug.Log ("El día es Miércoles");
-        }
-         if (dia == 5)
-        {
-            Debug.Log ("El día es Jueves");
-        }
-         if (dia == 6)
-        {
-            Debug.Log ("El día es Viernes");
-        }
-         if (dia == 7)
-        {
-            Debug.Log ("El día es Sábado");
-        }
-         if (dia > 7)
-        {
-            Debug.Log ("El día ingresado no es válido");
-        }
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        // Update is called once per frame
+        void Update()
+        {
+
+        }
     }
 }
+
