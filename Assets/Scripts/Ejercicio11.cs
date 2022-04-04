@@ -16,10 +16,14 @@ public class Ejercicio11 : MonoBehaviour
     //Precio Unitario: $xxx
     //Total a Pagar: $xxxxx
 
-    public string fechacompra;
+    public string FechaCompra;
+    public string NombreComprador;
+    public string NombreProducto;
+    public int CantidadProducto;
+    public int PrecioProducto;
  void Start()
     {
-        
+        Debug.Log("Fecha de Compra: " + FechaCompra + "\n" + "Nombre del Comprador: " + NombreComprador + "\n" + "Producto Solicitado: " + NombreProducto + "\n" + "Cantidad Solicitada: " + CantidadProducto + "\n" + "Precio Unitario: $ " + PrecioProducto + "\n" + "Total a Pagar: $ " + (CantidadProducto * PrecioProducto));
     }
 
     // Update is called once per frame
