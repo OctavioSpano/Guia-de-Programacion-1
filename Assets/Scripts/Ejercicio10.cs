@@ -15,25 +15,20 @@ public class Ejercicio10 : MonoBehaviour
     //encuentra abierto o no. Obs: En el caso de que el valor de la variable correspona a una hora
     //menor a 0 o mayor a 24, mostrar el mensaje: “Ha ingresado una hora incorrecta”
      public int hora;
-
      void Start()
 
     {
         int HORA_APERTURA = 10, HORA_CIERRE = 18;
-        bool estaAbierto; 
         if (hora >= HORA_APERTURA && hora <= HORA_CIERRE)
         {
-            estaAbierto = true;
             Debug.Log ("El estacionamiento se encuentra abierto");
         }
         if (hora < HORA_APERTURA && hora >= 0)
         {
-            estaAbierto = false;
             Debug.Log ("El estacionamiento se encuentra cerrado");
         }
         if (hora > HORA_CIERRE && hora <= 24)
         {
-            estaAbierto = false;
             Debug.Log ("El estacionamiento se encuentra cerrado");
         }
         if (hora < 0 || hora > 24)
